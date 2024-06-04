@@ -169,7 +169,8 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 3%; 
+    border-radius: 3%;
+    padding-bottom: 1%;
 }
 
 .kaggle img {
