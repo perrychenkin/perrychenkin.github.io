@@ -242,3 +242,14 @@ a {
 footer {
     max-height:1%;
 }
+
+#sql{
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    
+}
+
+footer a {
+    color: floralwhite;
+}
