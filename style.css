@@ -139,6 +139,48 @@ body {
     color: #f8fafc;
 }
 
+.resource-grid {
+    display: grid;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+@media (min-width: 900px) {
+    .resource-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.resource-card {
+    background: rgba(15, 23, 42, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 15px 25px rgba(2, 6, 23, 0.55);
+}
+
+.resource-card h3 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #f8fafc;
+}
+
+.resource-card p {
+    margin: 0;
+    color: #cbd5f5;
+    line-height: 1.5;
+}
+
+.resource-card a {
+    color: #8ba3ff;
+    font-weight: 600;
+    font-size: 0.95rem;
+    align-self: flex-start;
+}
+
 .site-nav {
     margin: 48px auto 24px;
     display: flex;
